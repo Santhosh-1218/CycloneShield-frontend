@@ -1,6 +1,6 @@
 import { requestManager } from './requestManager';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://cycloneshield-backend-voow.onrender.com/api';
 
 export interface DataProvenance {
   source: string;
